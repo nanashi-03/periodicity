@@ -90,6 +90,6 @@
 	{/if}
 </nav>
 <main>
-	<h1>Periodicity</h1>
+	<h1 class="logo">Periodicity</h1>
 	<slot />
 </main>

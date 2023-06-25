@@ -1,4 +1,5 @@
 import { createClient } from "@supabase/auth-helpers-sveltekit"
+import type { Database } from "./usertypes"
 import {
 	PUBLIC_SUPABASE_ANON_KEY,
 	PUBLIC_SUPABASE_URL,
