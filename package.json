@@ -1,0 +1,43 @@
+{
+    "name": "sk-supabase-auth",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "test": "playwright test",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+        "test:unit": "vitest",
+        "lint": "prettier --plugin-search-dir . --check . && eslint .",
+        "format": "prettier --plugin-search-dir . --write ."
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.35.1",
+        "@supabase/auth-helpers-sveltekit": "^0.8.7",
+        "@supabase/supabase-js": "^2.26.0",
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "@typescript-eslint/eslint-plugin": "^5.60.0",
+        "@typescript-eslint/parser": "^5.60.0",
+        "autoprefixer": "^10.4.14",
+        "eslint": "^8.43.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-svelte3": "^4.0.0",
+        "postcss": "^8.4.24",
+        "postcss-load-config": "^4.0.1",
+        "postcss-preset-env": "^7.8.3",
+        "postcss-simple-vars": "^7.0.1",
+        "prettier": "^2.8.8",
+        "prettier-plugin-svelte": "^2.10.1",
+        "svelte": "^3.59.2",
+        "svelte-check": "^2.10.3",
+        "svelte-preprocess": "^4.10.7",
+        "tslib": "^2.5.3",
+        "typescript": "^4.9.5",
+        "vite": "^4.3.9",
+        "vitest": "^0.25.8"
+    },
+    "type": "module"
+}
